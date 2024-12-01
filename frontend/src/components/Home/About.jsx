@@ -39,7 +39,7 @@ const About = () => {
             </div>
 
             <p>
-              I am Vishu Banotra, the founder of THE CAKE SHOP. Affiliated to
+              I am Pragya , the founder of THE CAKE SHOP. Affiliated to
               GOD taste.{" "}
             </p>
           </article>
