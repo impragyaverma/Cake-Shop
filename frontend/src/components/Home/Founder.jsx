@@ -12,9 +12,9 @@ const animation  = {
     <section className="founder">
       <motion.div {...animation}>
         <img src={founder} alt="Founder" height={200} />
-        <h3>Vishu Banotra</h3>
+        <h3>Pragya and Nishi</h3>
         <p>
-          Hey Everyone, I am Vishu Banotra, the founder of
+          Hey Everyone, we are Pragya and Nishi Sharma, the founder of
           <br/> 
           <span>THE CAKE SHOP</span> 
           <br />
