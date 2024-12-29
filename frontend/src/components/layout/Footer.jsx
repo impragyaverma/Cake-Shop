@@ -14,19 +14,26 @@ const Footer = () => {
       </div>
 
       <aside>
-        <h4>Follow us</h4>
+        <h4>Follow Both of us </h4>
         <div>
           <a href="https://www.linkedin.com/in/pragya-verma-a367631b3/">
             <AiFillLinkedin />
           </a>
+           <a href="https://www.linkedin.com/in/nishi-sharma-488825291/">
+            <AiFillLinkedin />
+          </a>
+          
 
           <a href="https://github.com/impragyaverma">
             <AiFillGithub />
           </a>
-
-          <a href="https://www.instagram.com/123/">
-            <AiFillInstagram />
+          <a href="https://github.com/nishisharma842004">
+            <AiFillGithub />
           </a>
+
+{/*           <a href="https://github.com/nishisharma842004">
+            <AiFillInstagram />
+          </a> */}
         </div>
       </aside>
     </footer>
