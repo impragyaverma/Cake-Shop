@@ -39,7 +39,7 @@ const About = () => {
             </div>
 
             <p>
-              I am Pragya , the founder of THE CAKE SHOP. Affiliated to
+             We are Pragya and Nishi Sharma , the founder of THE CAKE SHOP. Affiliated to
               GOD taste.{" "}
             </p>
           </article>
