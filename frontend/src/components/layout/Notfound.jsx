@@ -11,7 +11,7 @@ const Notfound = () => {
             <h1>ERROR 404</h1>
         </div>
 
-        <p>Page not found, click below to goto home page.</p>
+        <p>ERROR  404 ..Page not found, click below to goto home page.</p>
         <Link to="/">Go to Home</Link>
       </main>
     </section>
