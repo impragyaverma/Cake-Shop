@@ -1,7 +1,7 @@
 import React from "react";
 import { RiFindReplaceLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import me from "../../assets/founder.png";
+import founderImage from "../../assets/founder.png";
 
 const About = () => {
   return (
@@ -10,37 +10,39 @@ const About = () => {
         <h1>About Us</h1>
 
         <article>
-          <h4>THE CAKE SHOP</h4>
+          <h4>The Cake Shop</h4>
           <p>
-            Since The Cake Shop's inception in 2013, we have been successful in
-            redefining the horizons of e-retailing cakes, flowers, gifts & more,
-            and making online surfing for our customers much more handy. We
-            bring you an exclusive range of goodies and doorstep delivery
-            services so reliable, that you would not have to sweat about the
-            order once it's placed. Our 09 years journey has its share of lows &
-            highs. From taking the baby steps to sprinting fast to become
-            India's one of the most trusted online portals for gifts and cakes,
-            The Cake Shop is now India's one stop-solution for everyone's
-            gifting needs!
+            Established in 2024, The Cake Shop has revolutionized the way people
+            experience e-retailing of cakes, flowers, gifts, and more. With a
+            focus on providing an exclusive range of high-quality goodies and
+            reliable doorstep delivery services, we ensure a seamless shopping
+            experience for our customers. Our 11-year journey has been marked
+            by continuous growth, innovation, and a commitment to excellence.
+            From humble beginnings to becoming one of India’s most trusted
+            online portals for gifts and cakes, The Cake Shop is now your
+            one-stop solution for all gifting needs!
           </p>
 
           <h4 className="secondHeading">Explore More With Us</h4>
-          <Link>
-            <RiFindReplaceLine />
+          <Link to="/explore">
+            <RiFindReplaceLine size={24} />
           </Link>
         </article>
 
-        <div>
-          <h2>Founder</h2>
+        <div className="founder-section">
+          <h2>Meet Our Founders</h2>
           <article>
-            <div>
-              <img src={me} alt="founder" />
-              <h3>Vishu Banotra</h3>
+            <div className="founder-details">
+              <img src={founderImage} alt="Founders" className="founder-image" />
+              <h3>Pragya & Nishi Sharma</h3>
             </div>
 
             <p>
-             We are Pragya and Nishi Sharma , the founder of THE CAKE SHOP. Affiliated to
-              GOD taste.{" "}
+              We are Pragya and Nishi Sharma, the proud founders of The Cake
+              Shop. Our mission is to spread joy and sweetness across India
+              with every cake and gift delivered. Affiliated with the ultimate
+              standard of taste and quality, we’re here to make every occasion
+              special for you.
             </p>
           </article>
         </div>
