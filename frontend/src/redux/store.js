@@ -15,4 +15,4 @@ const store = configureStore({
 
 export default store;
 
-export const server = "https://testingapp-mx0n.onrender.com/api/v1";
+export const server = "http://localhost:3010/api/v1";
