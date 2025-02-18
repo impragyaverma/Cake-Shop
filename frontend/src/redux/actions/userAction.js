@@ -30,7 +30,6 @@ export const login = (username, password) => async (dispatch) => {
     dispatch({
       type: "loginRequest",
     });
-
     const { data } = await axios.post(
       `${server}/login`,
       {
@@ -43,6 +42,7 @@ export const login = (username, password) => async (dispatch) => {
         },
       }
     );
+    
     localStorage.setItem("token", data.token);
 
     dispatch({
@@ -50,6 +50,7 @@ export const login = (username, password) => async (dispatch) => {
       payload: data.message,
     });
   } catch (error) {
+    console.log(error,"xyzsdf")
     dispatch({
       type: "loginRequestFail",
       payload: error.response.data.message,

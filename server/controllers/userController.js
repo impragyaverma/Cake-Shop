@@ -24,7 +24,7 @@ export const registerUser = asyncError(async (req, res, next) => {
 
 export const loginUser = asyncError(async (req, res, next) => {
   const { username, password } = req.body;
-
+  console.log(username  , password);
   const user = await User.findOne({ username, password });
   if (!user) {
     res.json({ message: "User not found" });
